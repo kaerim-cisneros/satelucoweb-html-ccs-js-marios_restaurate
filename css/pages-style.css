@@ -1,0 +1,32 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.main-content > .cont-wp {
+    width: 1000px;
+}
+
+.main-content > .cont-wp > #staff {
+    width: 350px;
+    margin: 18px 20px 20px 0px;
+    float: left;
+    border: 2px solid #11122b;
+}
+.main-content > .cont-wp p {
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.menusection {
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 40px
+}
+.menusection h1 {
+    color: #11122b;
+    font-family: 'Roboto', sans-serif;
+}
+

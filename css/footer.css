@@ -1,0 +1,79 @@
+.footer {
+    height: 300px;
+    background-color: #11122b;
+    font-family: "Ubuntu Condensed", "sans-serif";
+    color: #cbcbcb;
+    font-size: 0.8em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 60px 100px;
+    margin-top: -4px;
+}
+
+.footer > .ftr-content{
+    width: 300px;
+    
+}
+.footer > .ftr-content > .logo-ftr {
+   display: flex;
+   justify-content: center;
+}
+.footer > .ftr-content > .logo-ftr img {
+   width: 100px;
+   height: 70%;
+   opacity:0.7;
+ }
+
+.footer > .ftr-content> .ftr-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer > .ftr-content > .ftr-nav > .footer-nav-link{
+  width: 50px;
+  text-align: center;
+}
+.footer > .ftr-content> .ftr-nav > .footer-nav-link a{
+  text-decoration: none;
+  color: #cbcbcb;
+  transition: 0.5s;
+  
+}
+.footer > .ftr-content> .ftr-nav > .footer-nav-link a:hover{
+    text-decoration: underline;
+    color: #cea135;
+    letter-spacing: 1px;
+  }
+
+.footer > .ftr-content > .ftr-phone-hours{
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.footer > .ftr-content > .ftr-phone-hours strong{
+    color: #cea135;
+    margin-left: 20px;
+}
+.footer > .ftr-content > .social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer > .ftr-content > .social-media a {
+    color: #cea135; 
+    font-size: 2em;
+    transition: .5s;
+}
+.footer > .ftr-content > .social-media a:hover {
+    color: #cbcbcb; 
+}
+.footer > .ftr-content > .copy {
+    font-size: .6em;
+    text-align: center;
+    margin-bottom: 20px;
+}

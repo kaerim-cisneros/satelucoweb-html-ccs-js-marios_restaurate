@@ -1,0 +1,11 @@
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+@font-face {
+    font-family: mariosr;
+    src: url(../font/Phosphate.ttc);
+}
+h1, h3 {
+    font-family: 'mariosr','roboto','time new roman';
+}

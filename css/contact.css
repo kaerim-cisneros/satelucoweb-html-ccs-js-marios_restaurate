@@ -1,0 +1,32 @@
+.contact-grid-wp {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+.contact-left-wp > .contact-logo {
+
+    display: flex;
+    width: 250px;
+    height: 160px;
+    justify-content: center; 
+}
+.contact-left-wp > .contact-logo img {
+    padding: 10px;
+    width: 80%;
+    filter:invert(80%);
+}
+.contact-left-wp > .contact-info-wp{  
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.25em;
+}
+.contact-left-wp > .contact-info-wp i {
+    color: #cea135;
+}

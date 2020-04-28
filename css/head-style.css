@@ -1,0 +1,146 @@
+.top-head {
+    height: 190px;
+    background-color:#11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+.top-head > .top-left{
+    display: flex;
+    align-items: center;
+}
+.top-head > .top-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+.top-head > .top-right{
+    display: flex;
+    align-items: center;
+}
+/* Top-Left Styles */
+
+.phone-icon{
+    margin-right: 15px;
+}
+.phone-icon i {
+    font-size: 2em;
+}
+.top-head >.top-left>.phone-hours {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.top-head >.top-left>.phone-hours>.hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: .9em;
+}
+/* Top-Center Styles */
+.top-head > .top-center > .logo {
+    display: flex;
+    justify-content: center;
+}
+.top-head > .top-center > .logo img {
+    width: 126px;
+    height: 100%;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav > .head-nav-link {
+    width: 70px;
+    text-align: center;
+}
+.main-nav > .head-nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.main-nav > .head-nav-link a:hover {
+    color: #cea135;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+/* Top-Right Styles */
+.top-head >.top-right > .adress {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+.top-head >.top-right > .adress a {
+    color: #cbcbcb;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+.top-head >.top-right > .adress a:hover {
+    color: #cea135;
+    text-decoration: underline;
+}
+.top-head >.top-right > .map-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+.top-head >.top-right > .map-icon a{
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+.top-head >.top-right > .map-icon a:hover{
+    color: #cea135;
+}
+
+
+/* Skewed Cover */
+
+.head-wp {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.head-wp > .cover-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    filter: brightness(50%);
+    transform: skewY(-6deg);
+    transform-origin: top left;
+     
+}
+
+.head-wp > .skewed-cover-wp {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.head-wp > .skewed-cover-wp > .skewed-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+.head-wp > .skewed-cover-wp > .skewed-cont > .page-title {
+    background-color: #cea135;
+    color: #11122b;
+    padding: 5px;
+    text-align: center;
+    width: 175px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    letter-spacing: 2px;
+}

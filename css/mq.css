@@ -1,0 +1,141 @@
+@media (max-width: 615px) {
+    /* -- index -- */
+        /* -- head -- */
+
+    .top-head {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .top-head > .top-left {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .top-head > .top-center {
+        order: 1;
+        width: 100%;
+    }
+
+    .top-head > .top-right {
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .main-nav > .head-nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    
+    .top-head > .top-right > .adress {
+        order: 2;
+        text-align: left;
+        font-size: 1.25em;
+    }
+   
+    .top-head > .top-right > .map-icon {
+        order: 1;
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    /* -- cover -- */
+
+    .cover-img {
+        padding: 50px 10px;
+    }
+
+    /* -- page menu -- */
+
+    .page-menu {
+        height: 100%;
+    }
+
+    .page-menu > .col-wrp {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    /* --footer -- */ 
+
+    .footer {
+        height: 100%;
+    }
+
+    .ftr-nav {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .ftr-nav > .footer-nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+/* -- about -- */
+    /* -- head -- */
+
+    .head-wp > .skewed-cover-wp > .skewed-cont {
+        flex-direction: column;
+    }
+
+    .head-wp > .cover-bg {
+        background-size: 855px; 
+    }
+
+    .main-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main-content > .cont-wp {
+        text-align: justify;
+    }
+
+    .cont-wp > #staff {
+        margin: 10px 0px 25px 0px !important;
+        width: 100% !important;
+    }
+
+    /*-- square grid -- */
+
+    .square-wp > .squares > .square {
+        grid-template-columns: 1fr;
+    }    
+
+    .square-wp > .squares > .square > .square-image {
+        order: 2;
+    }
+
+    .square-wp > .squares > .square > .square-content {
+        order: 1;
+    }
+
+/* -- contact -- */
+
+    .main-content > .contact-grid-wp {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+
+    /* -- form -- */
+
+    .contact-form input {
+        padding: 1.5rem 0rem;
+    }
+
+    .contact-form textarea {
+        padding: 1.5rem 0rem;
+    }
+} 
