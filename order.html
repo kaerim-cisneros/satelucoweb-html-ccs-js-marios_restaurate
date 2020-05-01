@@ -1,27 +1,102 @@
+<!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="UTF-8">
-      <title>Bottega Dinner</title>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Order - Mario's Ristorante</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
-    </head>
-    <body>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/head-style.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/footer.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/pages-style.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/sqr-grid.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/helpers.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/mq.css" />
+</head>
+<body>
+    <div class="head-wp">
+        <div class="cover-bg" style="background-image: url('img/cover-about.jpg');">
+
+        </div>
+        <div class="skewed-cover-wp">
+            <div class="skewed-cont">    
+                <div class="page-title">
+                    <h3>Order</h3>
+                </div>
+                <div class="main-nav">
+                        <div class="head-nav-link">
+                            <a href="index.html">Home</a>
+                        </div>
+                        <div class="head-nav-link">
+                            <a href="about.html">About</a>
+                        </div>
+                        <div class="head-nav-link">
+                            <a href="menu.html">Menu</a>
+                        </div>
+                        <div class="head-nav-link">
+                            <a href="contact.html">Contact</a>
+                        </div>
+                </div>
+            </div>    
+        </div>
+         
+    </div>
         
-              <h2>Breakfast Options</h2>
-              <br>
-              <h4>Entrees</h4>
-              <hr>
-              <div id=breakfast-entree></div> 
-              <br>
-              <h4>Sides</h4>
-              <hr>
-              <div id=breakfast-sides></div> 
-              <hr>
-              <p id="waitress"> Waitress Sugestions</p>
-              <button type="button" onclick="total()">Order Complete</button>
-              <button >New Order</button>
-              <p>Total:</p> <p id="total"></p>
+    <!-- page content -->
+        <h2>Breakfast Options</h2>
+        <br>
+        <h4>Entrees</h4>
+        <hr>
+        <div id=breakfast-entree></div> 
+        <br>
+        <h4>Sides</h4>
+        <hr>
+        <div id=breakfast-sides></div> 
+        <hr>
+        <p id="waitress"> Waitress Sugestions</p>
+        <button type="button" onclick="total()">Order Complete</button>
+        <button >New Order</button>
+        <p>Total:</p> <p id="total"></p>
     
-        
+
+    <!-- footer  -->
+        <div class="footer">
+            <div class="ftr-content">
+                <div class="logo-ftr">
+                    <img src="img/logomarios.png" alt="Logo Mario's">
+                </div>
+                <div class="ftr-nav">
+                    <div class="footer-nav-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="footer-nav-link">
+                        <a href="about.html">About</a>
+                    </div>
+                    <div class="footer-nav-link">
+                        <a href="menu.html">Menu</a>
+                    </div>
+                    <div class="footer-nav-link">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="ftr-phone-hours">
+                    55.5379.4962 <strong>11 AM - 10 PM</strong>
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-snapchat-square"></i></a>
+                </div>
+                <div class="copy">
+                    &copy; Sateluco Producciones - Web Branch 2018 | All Right Reserved
+                </div>
+            </div>
+        </div>        
         
 
     </body>
