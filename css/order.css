@@ -1,0 +1,17 @@
+.order{
+    display: flex;
+    padding: 25px;
+}
+
+.order > .order-menu {
+    width: 75%;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.order > .order-suggestions {
+    width: 20%;
+    padding: 10px;
+    border: solid 3px #11122b;
+    border-radius: 5%;
+}
