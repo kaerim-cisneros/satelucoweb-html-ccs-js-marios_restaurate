@@ -6,6 +6,6 @@ body {
     font-family: mariosr;
     src: url(../font/Phosphate.ttc);
 }
-h1, h3 {
+h1, h3 , h2 {
     font-family: 'mariosr','roboto','time new roman';
 }

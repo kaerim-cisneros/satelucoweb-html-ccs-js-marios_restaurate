@@ -15,6 +15,7 @@
       <link rel="stylesheet" type="text/css" media="screen" href="css/pages-style.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="css/sqr-grid.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="css/helpers.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="css/buttons.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="css/mq.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="css/order.css" />
 </head>
@@ -52,15 +53,20 @@
         <div class="order-menu">
             <h2>Breakfast Options</h2>
              <br>
-            <h4>Entrees</h4>
-             <hr>
-            <div id=breakfast-entree></div> 
-             <br>
-            <h4>Sides</h4>
-              <hr>
-            <div id=breakfast-sides></div> 
-            <button type="button" onclick="total()">Order Complete</button>
-            <button >New Order</button>
+            <div class="order-menu-options">
+              <div class="order-menu-options-entrees">
+                <h4>Entrees</h4>
+                <div id=breakfast-entree></div> 
+              </div>
+              <div class="order-menu-options-sides">
+                <h4>Sides</h4>
+                <div id=breakfast-sides></div> 
+              </div>
+            </div>
+            <div class="center-btn-wp">
+              <button type="button" class="contact-btn" onclick="total()">Order Complete</button>
+              <button class="contact-btn">New Order</button>
+            </div>
             <p>Total:</p> <p id="total"></p>
         </div>
         <div class="order-suggestions">
